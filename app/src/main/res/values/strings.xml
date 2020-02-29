@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">YourFeedBack</string>
+    <string-array name="year">
+        <item>Select Your Year</item>
+        <item>1st Year</item>
+        <item>2nd Year</item>
+        <item>3rd Year</item>
+        <item>4th Year</item>
+        <item>5th Year</item>
+        <item>Professional</item>
+    </string-array>
+    <string name="str">Bhopal Coders Community, is the backbone of the Tech Communities in Bhopal, such as Google Developers Group, Bhopal and Developer Circles from Facebook. Our efforts are aligned towards making Bhopal, a Technology Hub. We\'re looking for individuals enthusiastic about the Impact, Technology can bring.
+
+Introducing our Volunteer in Progress(VIP) program. Sign up with your details, if you are interested about influencing people, and making more and more individuals excited about technology.
+
+\n\nAll the details must be correct. Incomplete forms will not be accepted.\n
+Forms with inappropriate answers will be rejected and would not be considered for submission.\n
+The shortlisted candidates would be called for Personal Interview.\n\n
+
+For any queries, text us on WhatsApp:\n
+Sameer Khan: +918120266490</string>
+    <string name="title_activity_inp">Inp</string>
+</resources>

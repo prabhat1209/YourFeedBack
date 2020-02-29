@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/lay"
+    tools:context=".Start">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bl"
+                    android:textStyle="italic|bold"
+                    android:text="Bhopal Coders Community VIPs(Volunteer in Progress)"
+                    android:textAlignment="center"
+                    android:textSize="28dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/start"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="310dp"
+                        android:textColor="@color/bl"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="22dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="get more info.."
+                        android:layout_marginBottom="15dp"
+                        android:id="@+id/info"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill Form"
+                android:textStyle="italic|bold"
+                android:id="@+id/start"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
